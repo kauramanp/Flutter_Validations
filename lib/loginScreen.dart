@@ -9,8 +9,6 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  int _counter = 0;
-
   final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
